@@ -66,6 +66,7 @@ body {
 
 .aboutImage {
 	max-width: 100%;
+    transform: rotate(90deg);
 }
 
 .skillsSection,
@@ -351,6 +352,21 @@ body {
 	background: url(../img/loader.gif) center center no-repeat;
 }
 
+.rowicon {
+	display: flex;
+	flex-direction: row;
+	// margin-top: 50px;
+	padding-top: 2px;
+	padding-left: 2px;
+	margin-left: 2px;
+	padding-right: 2px;
+	margin-right: 2px;
+
+}
+.ab {
+	color: #bdc3c7;
+	// text-align: center;
+}
 
 
 
