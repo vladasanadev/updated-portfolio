@@ -66,8 +66,8 @@ body {
 
 .aboutImage {
   max-width: 100%;
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
 }
 
 .skillsSection,
@@ -294,7 +294,8 @@ body {
 .copyrightSection {
   background-color: #000;
   color: #fff;
-  padding: 30px 5px;
+  padding: 10px 5px;
+  text-align: center;
 }
 
 .copyrightSection p {
@@ -347,22 +348,25 @@ body {
   background: url(../img/loader.gif) center center no-repeat;
 }
 
-.rowicon {
+.ab {
+  color: #bdc3c7;
+}
+
+.flex-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  padding-top: 2px;
-  padding-left: 2px;
-  margin-left: 2px;
-  padding-right: 2px;
-  margin-right: 2px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.ab {
-  color: #bdc3c7;
+.flex-container > div {
+  margin-top: 0;
+  padding-left: 15px;
+  font-size: 15px;
 }
 /*# sourceMappingURL=style.css.map */

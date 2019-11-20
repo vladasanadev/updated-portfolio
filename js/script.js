@@ -18,10 +18,10 @@ $(document).ready(function() {
 	});
 
 	var typed = new Typed(".typed", {
-		strings: ["Software Engineer.", "Web Developer.", "Student."],
-		typeSpeed: 70,
+		strings: ["Software Engineer.", "Web Developer."],
+		typeSpeed: 80,
 		loop: true,
-		startDelay: 1000,
+		startDelay: 500,
 		showCursor: false
 	});
 
