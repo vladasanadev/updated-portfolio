@@ -66,8 +66,6 @@ body {
 
 .aboutImage {
   max-width: 100%;
-  -webkit-transform: rotate(-90deg);
-          transform: rotate(-90deg);
 }
 
 .skillsSection,
@@ -103,7 +101,7 @@ body {
 }
 
 .chart .percent:after {
-  content: '%';
+  content: "%";
 }
 
 .squareItem {
@@ -121,7 +119,7 @@ body {
 
 .squareInnerContainer:before,
 .squareInnerContainer:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0px;
   width: 30%;
@@ -372,13 +370,14 @@ body {
 
 .fa.fa-instagram {
   color: transparent;
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
   background-clip: text;
   -webkit-background-clip: text;
 }
 
-.fa-linkedin, .fa-linkedin-square {
+.fa-linkedin,
+.fa-linkedin-square {
   color: #007bb6;
 }
 /*# sourceMappingURL=style.css.map */
